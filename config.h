@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Code:pixelsize=12:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=12:antialias=true:autohint=true" };
-static int borderpx = 5;
+static char *font = "Terminus:pixelsize=12:antialias=true:autohint=true";
+static char *font2[] = { "Twitter Color Emoji:pixelsize=12:antialias=true:autohint=true" };
+static int borderpx = 30;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -105,10 +105,10 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -154,7 +154,7 @@ unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
